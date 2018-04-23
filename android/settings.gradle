@@ -1,0 +1,7 @@
+rootProject.name = 'FinalCam'
+include ':react-native-google-play-game-services'
+project(':react-native-google-play-game-services').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-google-play-game-services/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+
+include ':app'
